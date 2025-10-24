@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAKURU WELLNESS CENTER</title>
+    <link rel="stylesheet" href="NakuruWellnessCenter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>NAKURU WELLNESS CENTER</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Your Health, Our Priority</h2>
+            <p>Providing exceptional healthcare services with compassion and expertise</p>
+            <button class="cta-button" onclick="scrollToSection('services')">Explore Services</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>NAKURU WELLNESS CENTER is dedicated to providing comprehensive healthcare services to the community. Our mission is to promote wellness, prevent illness, and provide exceptional medical care with compassion and integrity.</p>
+                    <p>Founded with the vision of accessible quality healthcare, we have grown to become a trusted healthcare provider in the region, serving thousands of patients annually with state-of-the-art facilities and experienced medical professionals.</p>
+                </div>
+                <div class="about-image">
+                    <img src="physio.jpeg" alt="Wellness Center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="musculoskeletal.jpg" width="300" height="200">
+                    <h3>Musculoskeletal Disorders</h3>
+                    <p>Backpain</p>
+                    <p>Neck Pains</p>
+                    <p>Arthritis</p>
+                    <p>Fractures</p>
+                    <p>Ligaments Injuries</p>
+                    <p>Pre & Post Surgery Rehabilitation</p>
+                    <span class="price">KES 2,500</span>
+                </div>
+                <div class="service-card">
+                    <img src="Neurological-Disorders.jpg" width="300" height="200">
+                    <h3>Neurological Disorder</h3>
+                    <p>Stroke Rehabilitation</p>
+                    <p>Multiple Sclerosis</p>
+                    <p>Head & Spinal Cord Injury</p>
+                    <p>Dementia</p>
+                    <p>Developmental Delay</p>
+                    <p>Guillain Barre Syndrome</p>
+                    <p>Motor Neurones Disease</p>
+                    <span class="price">KES 2,500</span>
+                </div>
+                <div class="service-card">
+                    <img src="Runners-knee_SAG.jpg" width="300" height="200">
+                    <h3>Others</h3>
+                    <p>Sports Injuries</p>
+                    <p>Sports Massage</p>
+                    <p>Medical Massage</p>
+                    <p>Yoga Stretches</p>
+                    <p>Chiropractic Cracks</p>
+                    <p>Dealers In Physio & Orthpedic Equipment</p>
+                    <span class="price">KES 2,500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://placehold.co/300x200/005000/ffffff?text=Vitamins" alt="Vitamins">
+                    <h3>Premium Vitamins</h3>
+                    <p>Essential vitamins and supplements for daily wellness</p>
+                    <span class="price">KES 850</span>
+                </div>
+                <div class="product-card">
+                    <img src="https://placehold.co/300x200/005000/ffffff?text=Herbal+Tea" alt="Herbal Tea">
+                    <h3>Herbal Wellness Tea</h3>
+                    <p>Natural herbal blends for relaxation and health</p>
+                    <span class="price">KES 450</span>
+                </div>
+                <div class="product-card">
+                    <img src="https://placehold.co/300x200/005000/ffffff?text=Organic+Oil" alt="Organic Oil">
+                    <h3>Organic Essential Oils</h3>
+                    <p>Pure essential oils for aromatherapy and wellness</p>
+                    <span class="price">KES 1,200</span>
+                </div>
+                <div class="product-card">
+                    <img src="https://placehold.co/300x200/005000/ffffff?text=Protein" alt="Protein">
+                    <h3>Whey Protein</h3>
+                    <p>High-quality protein supplements for fitness and recovery</p>
+                    <span class="price">KES 3,500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Nakuru Town, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+254 769861077</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>wainainakamau92@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon-Fri: 8AM-8PM<br>Sat-Sun: 9AM-5PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="emailForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div id="emailStatus"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NAKURU WELLNESS CENTER. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="NakuruWellnessCenter.js"></script>
+</body>
+</html>
